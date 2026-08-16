@@ -5,7 +5,7 @@ import pandas as pd
 
 # Read CSV File
 
-df = pd.read_csv("week4/startup_growth_investment_data.csv")
+df = pd.read_csv("week4/startup_growth_investment_data.csv" , on_bad_lines='skip')
 
 
 # Replace Missing Values With 0

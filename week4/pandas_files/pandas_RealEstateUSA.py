@@ -5,7 +5,7 @@ import pandas as pd
 
 # Read CSV File
 
-df = pd.read_csv("week4/RealEstate-USA (1).csv")
+df = pd.read_csv("week4/RealEstate-USA (1).csv" , on_bad_lines='skip')
 
 
 # Complete Dataset
